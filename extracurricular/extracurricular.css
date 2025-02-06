@@ -197,7 +197,7 @@ footer {
 
     main p {
         margin: 2% 2%;
-        font-size: calc(2px + 3vw);
+        font-size: calc(2px + 2vh);
     }
 
     #main {
@@ -253,6 +253,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 6vh;
+
     }
 }
 
