@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A website showcasing Jihye Lee's online resume.">
+  <link rel="stylesheet" type="text/css" href="project.css">
+  <title>Home | Project</title>
+</head>
+
+<body>
+<div id="page-wrapper">
+  <header>
+    <h1>Jihye Lee</h1>
+    <p>Explore my creative projects!</p>
+  </header>
+
+  <!-- Navigation Starts Here! -->
+  <div id="container">
+    <nav>
+      <ul>
+        <li><a href="../resume/resume.html">Home</a></li>
+        <li><a href="../education/education.html">Education</a></li>
+        <li><a href="/project.html">Projects</a></li>
+        <li><a href="../experience/experience.html">Experience</a></li>
+        <li><a href="../tech_skills/tech_skill.html">Technical Skills</a></li>
+        <li><a href="../extracurricular/extracurricular.html">Extracurriculars</a></li>
+      </ul>
+    </nav>
+    <!-- Navigation Ends Here! -->
+
+    <main>
+      <!-- Main Content Starts Here! -->
+      <h3 id="main-title">Projects</h3>
+      <div id="main">
+        <div id="resume-projects">
+          <div id="bitcoin-trader">
+            <h3><a href="https://github.com/jihyeleekr/aibitcoin" >AI Bitcoin Trader</a></h3>
+              <ul>
+                <li>Built a Bitcoin trading bot in <strong>Python</strong> with Alpaca’s API for real-time data analysis and execution</li>
+                <li>Utilized the <strong>ChatGPT-4 API</strong> for sentiment analysis of social media and news, enabling informed
+                  buy/sell decisions based on the Fear and Greed Index</li>
+                <li>Visualized data with <strong>Streamlit</strong> and Plotly to track trading performance and market trends</li>
+                <li>Logged trades and metrics in <strong>SQLite</strong> for strategy optimization and evaluation</li>
+              </ul>
+            </div>
+          <div id="covid-19-simulator">
+            <h3><a href="https://github.com/jihyeleekr/COVID-19-2D-Grid-Spread-Simulation-An-Agent-Based-Model">COVID-19 2D Grid Spread Simulation: An Agent-Based Model </a></h3>
+            <ul>
+              <li>Engineered a 2D grid-based agent model in <strong>MATLAB</strong> to simulate the spread of COVID-19,
+                focusing on the effects of varying movement speeds on transmission dynamics</li>
+              <li>Strategically designed agents to move <em>randomly</em> with subtle directional changes</li>
+              <li><em><strong>Conducted 1,000 simulations</strong></em> with different movement speeds, analyzing the impact on virus
+                spread by collecting data on the statuses of susceptible, infected, quarantined, and immune agents</li>
+            </ul>
+          </div>
+        </div>
+        <div id = "js-calculator">
+          <h3>Try My JS Calculator!</h3>
+          <div id="inputs">
+            <input type="text" id="first-number" placeholder="First Number">
+            <input type="text" id="second-number" placeholder="Second Number">
+          </div>
+          <div id="result">
+            <p id="output"></p>
+          </div>
+          <div id="buttons">
+            <button onclick="addition()"> + </button>
+            <button onclick="subtraction()"> - </button>
+            <button onclick="multiplication()"> * </button>
+            <button onclick="division()"> / </button>
+            <button onclick="exponential()"> ^ </button>
+            <button onclick="clear_function()"> Clear </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Main Content End -->
+  </div>
+  <!-- Footer Start -->
+  <footer>
+    <p>All Rights Reserved by Jihye Lee  Credits &copy;</p>
+  </footer>
+  <!-- Footer End -->
+</div>
+<script src="project.js"></script>
+</body>
+</html>
