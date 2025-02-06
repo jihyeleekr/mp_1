@@ -175,6 +175,11 @@ main p {
     font-size: calc(25px + 5vw);
 }
 
+label {
+    font-size: calc(4px + 1vw);
+    font-weight: bold;
+}
+
 /* Style the buttons */
 #buttons {
     display: flex;
@@ -188,8 +193,8 @@ main p {
     padding: 15px 20px;
     font-size: calc(1em + 0.5vw);
     border: none;
-    background-color: #608BC1;
-    color: white;
+    background-color: #049cfd;
+    color: black;
     border-radius: 15px;
 }
 
