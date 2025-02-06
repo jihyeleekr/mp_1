@@ -124,7 +124,7 @@ main p {
 /* Columns */
 #tech-skills {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     gap: 2vw;
     width: 100%;

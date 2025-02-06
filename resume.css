@@ -87,6 +87,7 @@ nav li:hover {
 
 /* Main Content */
 main {
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,7 +156,7 @@ footer {
 
     #container {
         width: 100%;
-        height: 100vh;
+        height: auto;
         flex-direction: column;
     }
 
@@ -193,20 +194,23 @@ footer {
     }
 
     #profile-image {
-        max-width: 70%;
+        max-width: 50%;
+        height: auto;
     }
 
     #main {
         width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 5vh;
     }
 
     #main-text {
         align-self: center;
         width: 100%;
-        margin: 1vh 1vw;
+        margin: auto;
     }
 
     #main-image {
@@ -217,5 +221,16 @@ footer {
         font-size: calc(1.5em + 0.5vw);
         text-align: center;
         color: #003366;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
+        background-color: #bcccdc;
+        padding: 1em 0;
+        font-size: calc(1em + 0.5vw);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 6vh;
     }
 }
